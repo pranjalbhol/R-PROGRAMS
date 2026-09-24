@@ -1,4 +1,4 @@
-1.year <- as.integer(readline(prompt = "Enter a year: "))
+1. year <- as.integer(readline(prompt = "Enter a year: "))
 
 if ((year %% 4 == 0 && year %% 100 != 0) || (year %% 400 == 0)) {
   cat(year, "is a leap year.\n")
@@ -7,7 +7,7 @@ if ((year %% 4 == 0 && year %% 100 != 0) || (year %% 400 == 0)) {
 }
 
 
-2.n <- as.integer(readline("Enter n: "))
+2. n <- as.integer(readline("Enter n: "))
 
 if (n < 1) {
   print("Invalid")
@@ -18,14 +18,14 @@ if (n < 1) {
 }
 
 
-3.m <- as.numeric(readline(prompt = "Marks: "))
+3. m <- as.numeric(readline(prompt = "Marks: "))
 
 grade <- if (m >= 800) "A+" else if (m >= 700) "A" else if (m >= 500) "B+" else if (m >= 400) "B" else if (m >= 150) "C" else "D"
 
 cat("Grade:", grade, "\n")
 
 
-4.add <- function(a, b) a + b
+4. add <- function(a, b) a + b
 sub <- function(a, b) a - b
 mul <- function(a, b) a * b
 div <- function(a, b) a / b
@@ -39,7 +39,7 @@ cat("Result:", res, "\n")
 
 
 
-5.# Create matrix using rbind() and rename rows
+5. # Create matrix using rbind() and rename rows
 MatrixOfTechnology <- rbind(
   Lang1 = c("C#", "Java", "Cobol", ".Net"),
   Lang2 = c("JavaScript", "NodeJs", "R", "Azure"),
