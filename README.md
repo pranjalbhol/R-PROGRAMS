@@ -39,14 +39,10 @@ cat("Result:", res, "\n")
 
 
 
-5. # Create matrix using rbind() and rename rows
-MatrixOfTechnology <- rbind(
+5. MatrixOfTechnology <- rbind(
   Lang1 = c("C#", "Java", "Cobol", ".Net"),
   Lang2 = c("JavaScript", "NodeJs", "R", "Azure"),
   Lang3 = c("Power BI", "ASP.Net", "Unity", "Block Chain")
 )
-
 print(MatrixOfTechnology)
-
-# Access element using row name
 cat("Element:", MatrixOfTechnology["Lang2", 3], "\n")
